@@ -1,0 +1,61 @@
+name: QR Code Crafter APIs
+description: >-
+  Public REST API and agent-native QR code generation platform by Brand Aspect Ltd, offering static QR generation across
+  27 payload types, six export formats, bounded bulk generation, and managed dynamic URL redirects with capability-token
+  management.
+url: https://qr-code-crafter-apis.apievangelist.com/apis.yml
+created: '2026-07-22'
+modified: '2026-07-22'
+specificationVersion: '0.21'
+tags:
+  - QR code generation
+  - developer tools
+  - image/asset generation
+  - barcode & QR APIs
+  - marketing/campaign tooling
+  - payments
+  - agent-native
+  - WebMCP
+  - bulk/batch processing
+  - URL redirects & link management
+apis:
+  - name: QRCodeCrafter API
+    description: >-
+      REST API for static QR generation, bounded bulk generation, and managed dynamic QR redirects. Public by default
+      with optional API key and dynamic-QR bearer capability tokens.
+    humanURL: https://qrcodecrafter.com/qr-code-api
+    baseURL: https://qrcodecrafter.com/.netlify/functions/generate-qr
+    tags:
+      - QR code generation
+      - developer tools
+      - image/asset generation
+      - barcode & QR APIs
+      - marketing/campaign tooling
+      - payments
+      - agent-native
+      - WebMCP
+      - bulk/batch processing
+      - URL redirects & link management
+    properties:
+      - type: OpenAPI
+        url: https://qrcodecrafter.com/.well-known/openapi.json
+      - type: OpenAPI
+        url: https://qrcodecrafter.com/openapi.yaml
+      - type: Documentation
+        url: https://qrcodecrafter.com/qr-code-api
+      - type: Documentation
+        url: https://qrcodecrafter.com/qr-code-api-pricing
+      - type: LLMSTxt
+        url: https://qrcodecrafter.com/llms.txt
+      - type: AgentGuide
+        url: https://qrcodecrafter.com/ai.txt
+      - type: WebMCP
+        url: https://qrcodecrafter.com/.well-known/webmcp.json
+maintainers:
+  - FN: QR Code Crafter Support
+    url: mailto:support@qrcodecrafter.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 96
+  at: '2026-07-22T15:17:39.922Z'
